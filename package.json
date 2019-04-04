@@ -1,0 +1,38 @@
+{
+  "name": "vuemular",
+  "description": "Handle Forms with Vue.js",
+  "repository": "https://github.com/dtkahl/vuemular",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/vuemular.js",
+  "files": [
+    "lib/*"
+  ],
+  "scripts": {
+    "dev": "vue-cli-service serve demo/demo.js",
+    "build": "node build/build.js",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "peerDependencies": {
+    "regenerator-runtime": "^0.13.2",
+    "vue": "^2.6.6",
+    "vue-router": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@vue/cli-service": "^3.5.3",
+    "core-js": "^2.6.5",
+    "fs-extra": "^7.0.1",
+    "prettier": "1.16.4",
+    "rollup": "^1.8.0",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^9.3.3",
+    "rollup-plugin-node-resolve": "^4.0.1",
+    "rollup-plugin-vue": "^4.7.2",
+    "vue": "^2.6.10",
+    "vue-template-compiler": "^2.6.10",
+    "vuepress": "^0.14.10"
+  }
+}
